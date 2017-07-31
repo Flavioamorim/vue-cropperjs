@@ -1,54 +1,30 @@
-# vue-cropperjs
-A Vue wrapper component for [cropperjs](https://github.com/fengyuanchen/cropperjs).
+# vue2-crop
 
-[![NPM](https://nodei.co/npm/vue-cropperjs.png?downloads=true)](https://nodei.co/npm/vue-cropperjs/)
+> A Vue.js project
 
-## Demo
-Checkout here **[agontuk.github.io/vue-cropperjs](https://agontuk.github.io/vue-cropperjs/)**
+## Build Setup
 
-## Installation
-```shell
-npm install --save vue-cropperjs
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+
+# run unit tests
+npm run unit
+
+# run e2e tests
+npm run e2e
+
+# run all tests
+npm test
 ```
 
-For Vue 1.0, use
-
-```shell
-npm install --save vue-cropperjs@1.0.3
-```
-
-> You will also need css & style loader for webpack
-
-## Usage
-See the [example](https://github.com/Agontuk/vue-cropperjs/tree/master/example) files & [cropperjs](https://github.com/fengyuanchen/cropperjs#cropperjs) documentation
-
-## Options
-
-### src
-* Type: `string`
-* Required: `false`
-
-### style
-* Type: `object`
-* Required: `false`
-
-Styling for the image container
-
-### imgStyle
-* Type: `object`
-* Required: `false`
-
-Styling for the image
-
-### alt
-* Type: `string`
-* Required: `false`
-
-Alternate text for the image
-
-### Crop related options
-
-See cropperjs [documentation](https://github.com/fengyuanchen/cropperjs#options) for all posible options & methods.
-
-## License
-MIT
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
